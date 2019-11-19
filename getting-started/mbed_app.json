@@ -2,7 +2,11 @@
     "target_overrides": {
         "*": {
              "platform.stdio-convert-newlines": true,
-             "target.components_remove": ["SD"]
+             "target.components_remove": ["SD"],
+             "target.features_remove": ["CC312"],
+             "target.features_remove": ["CC310"],
+             "target.features_remove": ["CRYPTOCELL310"],
+             "target.macros_remove": ["MBEDTLS_CONFIG_HW_SUPPORT"]
         }
     },
     "macros": [
